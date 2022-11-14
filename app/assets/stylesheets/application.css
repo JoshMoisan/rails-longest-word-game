@@ -15,12 +15,28 @@
  */
 
 
- p {
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 32px;
-color: white;
-background-color: blue;
+ }
 
+
+ ol li{
+  list-style-type: none;
+  display: inline;
+  background-color: blue;
+  color: white;
+  border-radius: 4px;
+  font-size: 64px;
+  padding: 10px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,0.2);
+  margin: auto 10px;
+
+ }
+ ol li:hover {
+  box-shadow: none;
+  padding: 20px;
+  font-weight: bolder;
 
  }
